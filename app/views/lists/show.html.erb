@@ -1,0 +1,15 @@
+<h1>
+  <%= @list.title %>
+</h1>
+<hr />
+
+<blockquote>
+  <%= @list.body %>
+</blockquote>
+
+<i>
+  Posted At: <%= @list.created_at %>
+</i>
+
+<br />
+<%= link_to 'All Lists', lists_path %>
